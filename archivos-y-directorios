@@ -1,6 +1,6 @@
 Para que el trailing slash funcione perfectamente en https://juegos.games
 
-Todos los archivos que terminen en .php, .html, .jpg, .gif, .png, .txt y .xml no deben tener "/" (trailing slash) al final. Para eso usamos este código:
+Todos los archivos que terminen en .php, .html, .jpg, .gif, .png, .txt y .xml no deben tener "/" (trailing slash) al final. Para eso usamos este código en .htaccess
 
 # Force trailing slash
 RewriteEngine On
